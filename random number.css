@@ -1,0 +1,100 @@
+/* Reset des marges */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Style général du corps */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+    color: #fff;
+}
+
+/* Style pour la boîte de discussion */
+#discussion {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour l'input */
+#guess {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style pour le bouton send */
+#bt-send {
+    background-color: #00cec9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+#bt-send:hover {
+    background-color: #00a8a8;
+}
+
+#bt-send:active {
+    transform: scale(0.95);
+}
+
+/* Style pr le bouton restart */
+#bt-restart {
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);  
+    margin-top: 10px; 
+}
+
+#bt-restart:hover {
+    background-color: rgb(197, 108, 108);
+}
+
+#bt-restart:active {
+    transform: scale(0.95);
+}
+
+/* Style pr le nombre de parties */
+
+#sheetNumber {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
