@@ -1,15 +1,15 @@
-# Guess the Number Game (1-100) in JavaScript 🎯
+# Jeu "Trouver le chiffre" (1-100) en JavaScript 🎯
 
-Hey everyone!  
+Salut tout le monde !
 
-I just finished building a simple **"Guess the Number"** game using **JavaScript**, where you have to guess a random number between 1 and 100. You have **10 attempts** to get it right, or you can quit anytime by entering **0**.
+Je viens de terminer un jeu simple **"Trouver le chiffre"** en **JavaScript**, où vous devez deviner un nombre aléatoire entre 1 et 100. Vous avez **10 tentatives** pour trouver le bon chiffre, ou vous pouvez quitter à tout moment en entrant **0**.
 
-🔗 **Here’s the link to play the game**: [Guess the Number Game](https://sudo-bato.github.io/Trouver-le-chiffre/)
+🔗 **Voici le lien pour jouer au jeu** : [Trouver le chiffre](https://sudo-bato.github.io/Trouver-le-chiffre/)
 
-### Features:
-- **Guess**: Enter a number between 1 and 100.
-- **Feedback**: Get hints if your guess is too high or too low.
-- **Attempts**: You have 10 tries to guess the correct number.
-- **Restart**: If you want to play again, just click restart!
+### Fonctionnalités :
+- **Deviner** : Entrez un nombre entre 1 et 100.
+- **Retour** : Vous recevrez des indices si votre proposition est trop grande ou trop petite.
+- **Tentatives** : Vous avez 10 essais pour deviner le bon chiffre.
+- **Redémarrer** : Si vous voulez jouer à nouveau, cliquez simplement sur "Redémarrer" !
 
-Let me know what you think or if you have any ideas for improvements. Enjoy the game, and good luck! 😄
+Faites-moi savoir ce que vous en pensez. Amusez-vous bien et bonne chance ! 😄
